@@ -1,0 +1,135 @@
+ 
+@import url('https://fonts.cdnfonts.com/css/unbounded');
+
+        body{
+            background-size: cover;
+            background: #33CCFF;
+            color: #525251;
+            font-family: "Times New Roman", Times, serif;
+            margin: 0;
+            padding: 0;
+            font-size: 14px;
+        }
+        .sayfa{
+            width: 1200px;
+            margin: auto;
+            padding: 10px;
+
+        }
+        .ust{
+            background: #3399FF;
+            border-radius: 20px;
+            border-style: 2px white solid;
+        }
+        #logo{
+            float: left;
+            width: 260px;
+            margin-top: 7px;
+            margin-left: 10px;
+        }
+        
+        #logo h1{
+            margin: 0;
+            padding: 0;
+            font-size: 52px;
+            text-transform: uppercase;
+            
+        }
+        
+        #logo h1 a{
+            font-family: Garamond;
+            text-decoration: none;
+            color: #000066;
+            letter-spacing: 20px;
+        }
+  
+        #menu{
+            float: right;
+
+            width: 550px;
+            margin: 50px 0 0 0;
+            padding: 0;
+            font-size: 23px;
+            text-align: right;
+        }
+        
+        #menu ul{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            border-radius: 20px;
+        }
+        
+        #menu ul li{
+            display: inline;
+            margin-right: 35px;
+        }
+        
+        #menu ul li a{
+            text-decoration: none;
+            font-size: 25px;
+            font-family: 'Unbounded', sans-serif;
+            color: #000066;
+        }
+        #menu a:hover{
+            color:blue;
+        }
+        
+        .orta{
+            color: #000066;
+            margin-top: 100px;
+            font-size: 17px;
+        }
+        .orta-sol{
+            width: 575px;
+            float: left;
+        }
+        .orta-sag{
+            width: 360px;
+            float: right;
+            height: 280px;
+            background: #FDC609;
+            padding: 10px;
+        }
+ 
+        }
+        .card
+        {
+            width: 300px;
+            float: left;
+        }
+        /*.orta-card{
+            margin :0 30px;
+        }*/
+        
+        .card{
+            margin-right: 30px;
+        }
+        
+        .card:nth-child(3){
+            margin:0px;
+        }
+      
+        .card h1{
+            border-bottom: 1px dotted white;
+            padding-bottom: 15px;
+            
+        }
+        
+        .button a{
+            display: inline-block;
+            padding: 10px 15px;
+            color: #fdc609;
+            background-color: #000033;
+            text-decoration: none;
+            
+        }
+        
+        .clear{
+            clear: both;
+        }
+        footer{
+            position:absolute;
+            bottom:0;
+            text-align: left;
+                    }
